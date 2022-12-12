@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;500;700&display=swap");
+
+* {
+  font-family: "Encode Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1600px;
+  height: 1080px;
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #303134;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1250px;
+  margin-left: 156px;
+  margin-right: 194px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.logo-container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo-div {
+  position: absolute;
+  width: 171px;
+  height: 36px;
+  top: 22px;
+}
+
+#logo {
+  width: 100%;
+}
+
+.rectangle1 {
+  width: 1600px;
+  height: 1px;
+  background: #f5f6f7;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.menu-container {
+  height: 44px;
+  width: 100%;
+  display: flex;
+}
+
+.menu-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  font-style: normal;
+}
+
+#g1 {
+  color: #c3170c;
+}
+#oglobo {
+  color: #1e4b9b;
+}
+#valor {
+  color: #006766;
+}
+#ge {
+  color: #07aa47;
+}
+#cartola {
+  color: #e3662b;
+}
+#globoplay {
+  color: #fb0735;
+}
+#dropz {
+  color: #ff75bb;
+}
+#gshow {
+  color: #ec7d00;
+}
+#quem {
+  color: #323333;
+}
+#receitas {
+  color: #a81d83;
+}
+
+.main-container {
+  margin-top: 34px;
+  display: flex;
+}
+
+.left-page {
+  width: 817px;
+}
+
+.main-title {
+  width: 624px;
+  height: 201px;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  color: #c4160c;
+}
+
+.secondary-news {
+  display: block;
+  width: 622px;
+  margin-top: 29px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: -0.01em;
+}
+
+.rectangle2 {
+  width: 624px;
+  height: 1px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: #ebedef;
+}
+.rectangle3 {
+  width: 624px;
+  height: 1px;
+  margin-top: 36px;
+  margin-bottom: 25px;
+  background: #ebedef;
+}
+.tertiary-news {
+  margin-top: 0px;
+  width: 100%;
+}
+.tertiary-news-div {
+  width: 193px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tertiary-news-ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 624px;
+}
+
+.tertiary-news-div img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.tertiary-news-div h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #c4170c;
+  margin-top: 11px;
+}
+
+.tertiary-news-div h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+
+  color: #2f3134;
+  margin-top: 6px;
+}
+
+.tertiary-news-div p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #2f3134;
+  margin-top: 4.5px;
+}
+
+/* RIGHT PAGE */
+
+.right-page {
+  width: 588px;
+  height: 100%;
+  margin-left: 35px;
+  display: flex;
+}
+
+.quaternary-news {
+  width: 100%;
+}
+
+.quaternary-news-ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.quaternary-news-div {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 42px;
+}
+
+.quaternary-news-div img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.h4-green {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #16ae54;
+  margin-top: 11px;
+}
+
+.quaternary-news-div h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+  margin-top: 6px;
+}
+
+.quaternary-news-div p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #2f3134;
+  margin-top: 4.5px;
+}
+
+.rectangle4 {
+  width: 1px;
+  height: 845px;
+  background: #ebedef;
+  margin-left: 35px;
+  margin-right: 36px;
+}
+
+.h4-orange {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  margin-top: 11px;
+  color: #ec8006;
+}
+
+.rectangle-div {
+  width: 1px;
+  height: 845px;
+  background: #ebedef;
+}
